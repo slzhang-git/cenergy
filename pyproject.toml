@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cenergy"  # must be unique on PyPI
+version = "1.0.0"
+description = "Short description of your library"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+
+authors = [
+  { name = "Shiliang Zhang", email = "shiliangz@ieee.org" }
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  # "requests>=2.0,<3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/slzhang-git/cenergy"
+Source   = "https://github.com/slzhang-git/cenergy"
+Issues   = "https://github.com/slzhang-git/cenergy/issues"
