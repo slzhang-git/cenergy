@@ -17,3 +17,17 @@ target_place = "Rousay-Orkney Islands-Scotland" # You can change to the name of 
 fig_json = generate_3d_model(api_key=api_key, target_place=target_place)
 plot_3d_model(fig_json)
 save_3d_model(fig_json)
+
+
+**Citation for our work**:
+
+Shiliang Zhang, Sabita Maharjan, "Cenergy3: An API for city energy 3D modeling," _arXiv preprint arXiv:2512.06459_, 2026. [10.48550/arXiv.2512.06459](https://doi.org/10.48550/arXiv.2512.06459)
+
+BibTex:<br>
+@article{zhang2025cenergy3,<br>
+  title={Cenergy3: An API for city energy 3D modeling},<br>
+  author={Zhang, Shiliang and Maharjan, Sabita},<br>
+  journal={arXiv preprint arXiv:2512.06459},<br>
+  doi={10.48550/arXiv.2512.06459},<br>
+  year={2025}<br>
+}
