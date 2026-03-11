@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cenergy"  
-version = "1.0.0"
+version = "1.0.1"
 description = "This Python library automates the generation of digital 3D urban energy model from open data. We synthesize data from OpenTopography, OpenStreetMap, and Overture Maps in generating 3D models. The rendered model visualizes and contextualizes distribution power grids alongside the built environment and transportation networks."
 readme = "README.md"
 requires-python = ">=3.12"
