@@ -17,7 +17,7 @@ target_place = "Rousay-Orkney Islands-Scotland" # You can change to the name of 
 fig_json = generate_3d_model(api_key=api_key, target_place=target_place)
 plot_3d_model(fig_json)
 save_3d_model(fig_json)
-
+```
 
 **Citation for our work**:
 
