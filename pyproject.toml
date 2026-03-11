@@ -21,7 +21,6 @@ classifiers = [
 ]
 
 dependencies = [
-  # "requests>=2.0,<3.0",
   "bmi-topography", 
   "osmnx", 
   "geopandas", 
