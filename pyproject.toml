@@ -37,6 +37,6 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://sites.google.com/view/energy-and-open-data/home/3d-energy-city"
+Homepage = "https://sites.google.com/view/cenergy3/home"
 Source   = "https://github.com/slzhang-git/cenergy"
 Issues   = "https://github.com/slzhang-git/cenergy/issues"
