@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "cenergy"  # must be unique on PyPI
+name = "cenergy"  
 version = "1.0.0"
-description = "Short description of your library"
+description = "This Python library automates the generation of digital 3D urban energy model from open data. We synthesize data from OpenTopography, OpenStreetMap, and Overture Maps in generating 3D models. The rendered model visualizes and contextualizes distribution power grids alongside the built environment and transportation networks."
 readme = "README.md"
 requires-python = ">=3.12"
 license = { file = "LICENSE" }
@@ -22,6 +22,18 @@ classifiers = [
 
 dependencies = [
   # "requests>=2.0,<3.0",
+  "bmi-topography", 
+  "osmnx", 
+  "geopandas", 
+  "rasterio", 
+  "matplotlib", 
+  "contextily plotly==6.5.0",
+  "kaleido==0.2.1",
+  "overturemaps",
+  "trimesh", 
+  "mapbox-earcut", 
+  "manifold3d", 
+  "triangle"
 ]
 
 [project.urls]
