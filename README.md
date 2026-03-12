@@ -2,6 +2,14 @@
 
 This is our developed approach and openly released software that automate the generation of digital 3D urban energy model from open data. We synthesize data from OpenTopography, OpenStreetMap, and Overture Maps in generating 3D models. The rendered model visualizes and contextualizes distribution power grids alongside the built environment and transportation networks. Our developed software, including an **open python library** and **a free [API](https://arxiv.org/pdf/2512.06459)**, provides interactive figures for the 3D models. The rendered models are essential for analyzing infrastructure alignment and spatially linking energy demand nodes (buildings) with energy supply (utility grids). The developed API leverages standard Web Mercator coordinates (EPSG:3857) and JSON serialization to ensure interoperability within smart city and energy simulation platforms. We also provide a **graphic user interface [(GUI)](https://sites.google.com/view/cenergy3/home)** where end-users can access our API via a cloud-based server, regardless of their programming skills and what devices and platforms their are using. Below we explain how to use our software package through Python and MATLAB programming. If you do not want to deal with coding, then just visit our [GUI](https://sites.google.com/view/cenergy3/home) and you can get 3D models conveniently.
 
+Below are two examples of the resulted 3D models, where white lines indicate road networks, light blue blocks represents buildings, and red lines are power lines. The example in the left is for the place of **Rousay, Orkney Islands, Scotland**. According to the log of our API, for this area, we collect 129,652 records of elevations, 988 road segments, 36 power lines, and 716 buildings with height. The example in the right is for the place of **Avalon, Los Angeles County, United States**. According to the log of our API, for this area, we collect 9,494 records of elevations, 929 road segments, 4 power lines, and 1,285 buildings with height. 
+
+<img width="460" height="223" alt="Rousay_python" src="https://github.com/user-attachments/assets/b1551ed1-8c7f-46cc-9cb2-d0c69c2eb88c" />
+
+<img width="462" height="285" alt="Avalon_example_matlab" src="https://github.com/user-attachments/assets/666ee3ba-5807-4994-a516-ca40f5a156d5" />
+
+Note that the raw visualization is in high resolution, see here for the 3D model example of [Kurnell, Sydney, Australia](https://slzhang-git.github.io/Example-for-Kurnell-Sydney-Australia/3d_visualization_Kurnell_Sydney_Australia.html).
+
 **Citation for our work**:
 
 Shiliang Zhang, Sabita Maharjan, "Cenergy3: An API for city energy 3D modeling," _arXiv preprint arXiv:2512.06459_, 2026. [10.48550/arXiv.2512.06459](https://doi.org/10.48550/arXiv.2512.06459)
