@@ -4,9 +4,9 @@ This is our developed approach and openly released software that automate the ge
 
 Below are two examples of the resulted 3D models, where white lines indicate road networks, light blue blocks represents buildings, and red lines are power lines. The example in the left is for the place of **Rousay, Orkney Islands, Scotland**. According to the log of our API, for this area, we collect 129,652 records of elevations, 988 road segments, 36 power lines, and 716 buildings with height. The example in the right is for the place of **Avalon, Los Angeles County, United States**. According to the log of our API, for this area, we collect 9,494 records of elevations, 929 road segments, 4 power lines, and 1,285 buildings with height. 
 
-<img width="460" height="223" alt="Rousay_python" src="https://github.com/user-attachments/assets/b1551ed1-8c7f-46cc-9cb2-d0c69c2eb88c" />
+<img width="414" height="201" alt="Rousay_python" src="https://github.com/user-attachments/assets/b1551ed1-8c7f-46cc-9cb2-d0c69c2eb88c" />
 
-<img width="462" height="285" alt="Avalon_example_matlab" src="https://github.com/user-attachments/assets/666ee3ba-5807-4994-a516-ca40f5a156d5" />
+<img width="416" height="256" alt="Avalon_example_matlab" src="https://github.com/user-attachments/assets/666ee3ba-5807-4994-a516-ca40f5a156d5" />
 
 Note that the raw visualization is in high resolution, see here for the 3D model example of [Kurnell, Sydney, Australia](https://slzhang-git.github.io/Example-for-Kurnell-Sydney-Australia/3d_visualization_Kurnell_Sydney_Australia.html).
 
