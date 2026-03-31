@@ -15,7 +15,7 @@ Note that the raw visualization is in high resolution, see here for the 3D model
 Shiliang Zhang, Sabita Maharjan, "Cenergy3: An Open Software Package for City Energy 3D Modeling," _arXiv preprint arXiv:2603.20361_, 2026. [10.48550/arXiv.2603.20361](https://doi.org/10.48550/arXiv.2603.20361)
 
 BibTex:<br>
-@article{zhang2025cenergy3,<br>
+@article{zhang2026cenergy3,<br>
   title={Cenergy3: An Open Software Package for City Energy 3D Modeling},<br>
   author={Zhang, Shiliang and Maharjan, Sabita},<br>
   journal={arXiv preprint arXiv:2603.20361},<br>
