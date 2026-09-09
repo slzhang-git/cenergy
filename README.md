@@ -44,7 +44,7 @@ save_3d_model(fig_json)
 
 **The approach below to use our API has been deprecated to reduce cost at our side. Please use our Python library directly, and it is very convenient for programming.**
 
-**We also provide the programming examples below that you can access our API via Python or MATLAB:**
+**(Now deprecated) We also provide the programming examples below that you can access our API via Python or MATLAB:**
 
 Python example:
 
